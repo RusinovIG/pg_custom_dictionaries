@@ -1,0 +1,5 @@
+# dict_abs_int extension
+comment = 'text search dictionary template that return absolute value for integers'
+default_version = '1.0'
+module_pathname = '$libdir/dict_abs_int'
+relocatable = true
