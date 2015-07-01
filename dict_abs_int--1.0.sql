@@ -1,5 +1,5 @@
 -- complain if script is sourced in psql, rather than via CREATE EXTENSION
-\echo Use "CREATE EXTENSION dict_int" to load this file. \quit
+\echo Use "CREATE EXTENSION dict_abs_int" to load this file. \quit
 
 CREATE FUNCTION dabs_int_init(internal)
 	RETURNS internal
