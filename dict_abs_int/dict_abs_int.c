@@ -11,14 +11,7 @@
 
 PG_MODULE_MAGIC;
 
-PG_FUNCTION_INFO_V1(dabs_int_init);
 PG_FUNCTION_INFO_V1(dabs_int_lexize);
-
-Datum
-dabs_int_init(PG_FUNCTION_ARGS)
-{
-	PG_RETURN_POINTER(NULL);
-}
 
 Datum
 dabs_int_lexize(PG_FUNCTION_ARGS)

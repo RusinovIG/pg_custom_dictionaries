@@ -11,14 +11,7 @@
 
 PG_MODULE_MAGIC;
 
-PG_FUNCTION_INFO_V1(dict_catalog_domain_init);
 PG_FUNCTION_INFO_V1(dict_catalog_domain_lexize);
-
-Datum
-dict_catalog_domain_init(PG_FUNCTION_ARGS)
-{
-	PG_RETURN_POINTER(NULL);
-}
 
 static char * find_word(char *in, char **end)
 {
