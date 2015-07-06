@@ -21,7 +21,7 @@ Datum
 dabs_int_lexize(PG_FUNCTION_ARGS)
 {
 	char *in = (char *) PG_GETARG_POINTER(1);
-	char *out = pnstrdup(in, PG_GETARG_INT32(2));;
+	char *out = pnstrdup(in, PG_GETARG_INT32(2));
 	char *start;
 	char *end;
 	TSLexeme *res = palloc0(sizeof(TSLexeme) * 2);
