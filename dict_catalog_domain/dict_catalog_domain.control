@@ -1,0 +1,5 @@
+# dict_catalog_domain extension
+comment = 'text search dictionary template that index domain parts'
+default_version = '1.0'
+module_pathname = '$libdir/dict_catalog_domain'
+relocatable = true
