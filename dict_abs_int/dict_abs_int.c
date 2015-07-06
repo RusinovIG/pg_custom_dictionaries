@@ -3,8 +3,11 @@
  */
 #include "postgres.h"
 
+#include <ctype.h>
+
 #include "commands/defrem.h"
-#include "tsearch/ts_public.h"
+#include "tsearch/ts_locale.h"
+#include "tsearch/ts_utils.h"
 
 PG_MODULE_MAGIC;
 
