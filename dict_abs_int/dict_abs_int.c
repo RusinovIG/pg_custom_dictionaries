@@ -33,7 +33,7 @@ dabs_int_lexize(PG_FUNCTION_ARGS)
     		out += pg_mblen(out);
 
 	end = out;
-	*out = pnstrdup(start, end - start);
+	out = pnstrdup(start, end - start);
 
   res[0].lexeme = out;
 
